@@ -1,0 +1,55 @@
+🚀 CARA UPLOAD BOT KE REPLIT
+============================
+
+📦 FILE YANG HARUS DI-UPLOAD:
+-----------------------------
+✅ index.js
+✅ package.json
+✅ keep-alive.js
+✅ .replit
+✅ replit.nix
+✅ .env
+✅ .gitignore
+✅ README.md (optional)
+✅ REPLIT-SETUP.md (optional - panduan lengkap)
+✅ RENDER-SETUP.md (optional - untuk deploy ke Render)
+✅ QUICK-START.md (optional - quick guide)
+
+🔑 SECRETS YANG HARUS DI-SET DI REPLIT:
+---------------------------------------
+BOT_TOKEN = 7919596620:AAGWhiUA1C3CHAFYWSHYnvoqxowgudR35B8
+ADMIN_USER_ID = 7314801720
+PORT = 8080
+
+⚡ LANGKAH CEPAT:
+----------------
+1. Buka Replit.com → Login
+2. Create Repl → Node.js
+3. Upload semua file di atas
+4. Klik ikon kunci (Secrets) → Tambahkan 3 secrets
+5. Klik tombol "Run"
+6. Test di Telegram dengan /start
+7. Kirim link Instagram/TikTok/Twitter/YouTube/Pinterest
+8. Bot akan kirim FILE video/foto (bukan link)
+
+🌐 KEEP BOT ONLINE (AGAR TIDAK SLEEP):
+--------------------------------------
+1. Buka UptimeRobot.com → Buat akun gratis
+2. Add New Monitor:
+   - Type: HTTP(s)
+   - URL: (copy dari Webview Replit)
+   - Interval: 5 minutes
+3. Save
+
+📖 PANDUAN LENGKAP:
+------------------
+Baca file: REPLIT-SETUP.md
+
+🎯 UNTUK PRODUCTION:
+-------------------
+Setelah test di Replit berhasil, deploy ke Render.
+Baca file: RENDER-SETUP.md
+
+✅ SELESAI!
+----------
+Bot siap digunakan di Replit!
